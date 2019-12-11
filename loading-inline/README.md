@@ -1,7 +1,4 @@
-# CoolBASH
-BASH script style
-
-### loader.bash
+# Inline Loading in BASH
 ![Loading](https://raw.githubusercontent.com/panophan/BASHBOOK/master/loading-inline/loader-bash.gif)
 
 Sample:
