@@ -6,7 +6,7 @@ BASH script style
 
 Sample:
 ```
-function _loader {
+function _loading {
     let _progress=(${1}*100/${2}*100)/100
     let _done=(${_progress}*4)/10
     let _left=40-$_done
@@ -18,7 +18,7 @@ function _loader {
 last=10
 for ((i=0;i<=$last;i++))
 do
-	_loader "$i" "${last}"
+	_loading "$i" "${last}"
 	sleep 0.1 
 done
 ```
