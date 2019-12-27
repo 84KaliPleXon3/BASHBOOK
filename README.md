@@ -36,3 +36,19 @@ schopy@nuxmint ~ $ cat testfile | grep -Po 'href="\K.*?(?=")'
 http://test.com/uri
 schopy@nuxmint ~ $
 ```
+
+-------------------
+
+### Convert RAW Text to Urlencode format (One-line command)
+
+Command
+```
+python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1])" "here ur text"
+```
+
+Example convert \['myname@email.com'\] to Urlencode
+```
+schopy@nuxmint ~/Downloads $ python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1])" "['myname@email.com']"
+%5B%27myname%40email.com%27%5D
+schopy@nuxmint ~/Downloads $
+```
