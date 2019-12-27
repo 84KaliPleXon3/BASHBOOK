@@ -19,6 +19,8 @@ one two three
 schopy@nuxmint ~ $
 ```
 
+-------------------
+
 ### Grep print only matched text (regex)
 
 Command
